@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+               
+          
+    <title>Tailwind 1</title>
+</head>
+<body>
+    <!-- main section -->
+    <main class="flex p-3  border border-dark-300 rounded bg-light-200 sm:flex-col lg:flex-row lg:justify-around " >
+        <!-- Login form details start -->
+        <div class="flex flex-col ">
+            <h1 class="text-dark-700 text-2xl my-2 lg:text-center">Login</h1>
+            <p class=" lg:text-center my-2 text-dark-300">Enter your credentials to access your account</p>
+            <!-- login input form with google icon start-->
+            <div class="relative my-4 "> 
+                <button class="  pl-16 text-center text-dark-900 pr-5 py-2 border rounded-lg" >Login with Google </button>
+                       
+
+                <div class="absolute inset-y-0 left-0 pl-8   
+                            flex items-center  
+                            pointer-events-none"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAABGlBMVEX////lQzU0o1NCgO/2twT6+/7n7v0jc+72tQDlQTPlPi8ooEswolAhnkcNmz3kPCzkNSP1sQDD1PnjKRHpa2L76Of2xMH//PY4e+/n8+r87u3thn/yrqn++vrkMB70uLTxo57qbjj3wEX98Nn3uzL+9udWjPD97tH4xVn5z33857761pH85bb615in0rGQr/TU4PvN5dNZsXD30c/oYVfvkYvmSz7qdW3nVEn53NrvmpTiEwD75dHnUSrtgzPkNjbxnCfoYTnsezbujC7zpSH1unD74qlolvLjzHmts0OSslHiuC5Yqli9tUGdsUu1yvh9rlN0uoXWuDahvPZhp0mIxJYwmYI6ompHi9m42sBDk7k1nXRHkcpCmqH8e5ytAAAENklEQVR4nO2Xa3ubNhiGbaLEgBCIYBIfcXqIm6wdbUjqQ7Y13aFNu0Nbtnld2u7//43JDrYRCINl4VzXpvuDP4GfR+/76pGoVCQSiUQikUgkEolkI7ot121170K5dd5rX2Anwqo/7523tibeHXfqAwtbulaN0HSMrcGw525FvlPH3lJ7gaZZnjY8L7sf7nOm+tyE5Yw6pcq3HZypHnnwcK8s+W5Hx6vVIwsX56Xoj+tezurnWPiyBP2OZxWTvy2C6E3ZHTqF5afo3oFQffeiSPepImCR28EdFS9/GQZa2vr6nkB9V9PX1a86AsOgdbH++kXqV4ZZ86dZ2MMEz0pUSOwAHnkZ6h6uX/YOCJ32yPGsWEh5RwL1x9+w5HVncDmOPdU9aOPFKeGIXH93xIhf3Rmm0751VMXi+1+5ZDQAj9gp57ZJEcT2v+JaqQJoTjsz5w+wLrT/ZAekdqDmrAp5VxOr/+13V8n2W+OVbwi+kZ3Y92gHWrWcu0YGxzYALygHgg/ZPB6rAICX1eUcCt3h+RyCqQFgfz8vgjXcqn7lkQ1m2D/cOtDw9j5+ZpyqIOLH2wA62q7+4f2FAfDT4KqqDbZcgAdLfcK9K8EZl88TO24AvNC38ukZ45SqAACv2I/tFoHLwH3agP2a+dRebSefax79w4cJA8f8Bvo8Bh7QDVDBIb+BnT0OA4/oAqgn7MeKGXgmwMDpBgYaPAa+Shh4vImBfQ4DTxIGvv7fGbjzFggdQhEGNtmGXLtAZBBxGRAZxVxJKPIw4jOQOI7tN/wG+lznMX0hUd8qTdZTu3sMnjXoEeA6jqkrmQp+NpBf+NV9uiyNp1wGYpdS9ZdfFcVQ2PuAwVO6AjWeGKjEhkD9TZlSuAS7fXoEGlwzuPgwUcG7mb5iwIIleJ8YzGu+O2H0aaY+/KBEwLDQe6kC8I1A5fbj1P6dNH+OeVPktT/oCdip8eTgjGNbJbsvDjrLfyuxBwmcHSCcgA+UPilGroNkAzboAImCPxUl6YAZRzH962QBapx7YEYIUw7MlTXY7Sf1OWMwopkyQCZxkv38fiM1AFxH8RIfpR3AIKMIzclfO2ILQLIgMNIODDNkWGj6CkIf/24ILQD5WzNtgBTBDHxqGps3IZoWy4CfqBjcZAtEsJowUzKV0L85I9z4oWKi+bSYdBv4M2BByHYw9YAQhOQHwXif0OdlG/hDMEaTNQargMqXhrAGzBwYazowzH9qInYAvwPF/EwCqcF7DDMcBIxAWgn8+KXW3ySDN3ZgmJ+ErX9GyMyDbMyw8A2yID5aowiGWfwKXZhmkBUIKVD+tYEL3yhUBAgnoss/pxmauRYMM+uwFGNhYqAVoWAgxDooxVrwA4iYyWSg5BlZogcFUicQOZegEvhlLz7u4cyfBNCMgMHEP9vK2tNGCHciLJFIJBKJRCKRSP47/AvJumx8qi7o5gAAAABJRU5ErkJggg==" class="w-5 ml-2 " alt=""> 
+                </div> 
+                <!-- login input form with google icon end-->
+            </div> 
+            <span class="text-center">or</span><br>
+            <hr>
+            <!-- Email id details start -->
+            <div class=" flex flex-col sm:w-1/2 lg:w-full">
+                <!-- label email id -->
+                <label for="email" class=" mt-2 font-semibold ">Email Address<br></label>
+                <!-- input box email id -->
+                <input type="email" required autofocus placeholder="abc@123.com" id="email" name="email-id" class=" mt-1 mb-2 p-2 block border rounded-lg">
+            </div>
+             <!-- Email id details end -->
+             <!-- Password  -->
+            <div class="flex flex-col sm:w-1/2 lg:w-full">
+                <!-- label -->
+                <label class=" font-semibold flex flex-row justify-between  text-lg" for="password">Password <span class="text-blue-700">Forgot password?</span><br></label>
+                <!-- input password -->
+                <input type="password" placeholder="password" id="password" name="password" autofocus class="my-2  p-2 block border rounded-lg">
+            </div>
+            <div>
+                <!-- login button -->
+                <button class="text-white text-center py-1 mt-7 bg-blue-800 w-full rounded sm:w-1/2 lg:w-full">Login</button>
+            </div>
+            <p class="my-4 text-sm lg:text-center text-light-100">Don't have an account? <span class="font-semibold">Register here</span></p>
+       
+            
+
+        </div>
+         <!-- Login form details end -->
+
+        <!-- Image section start -->
+        <div>
+           <img src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1698669562~exp=1698670162~hmac=a9dcfbf8a556fa6e4dd5414630320b16c425a78ad5f6c51cfec6b226048b2ace" alt="" class=" max-w-full h-auto hidden lg:block">
+        </div>
+    </main>
+  
+    
+</body>
+</html>
